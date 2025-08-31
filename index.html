@@ -11,25 +11,81 @@
   <!-- Top strip -->
 
 
-  <!-- Header -->
-  <header>
-    <div class="header-row">
-      <div class="logo"> CareConnect    স্বাস্থ্য | তথ্য | সহায়ক | সেবা</div>
-      <nav class="nav">
-        <a href="#">বিশেষজ্ঞ ডাক্তার</a>
-        <a href="#">নিকটস্থ হাসপাতাল</a>
-        <a href="#">সেবা সমূহ</a>
-        <a href="#">লগইন</a>
-      </nav>
-      <div class="search"><input placeholder="খুঁজুন…" /></div>
-    </div>
-  </header>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="nav-a">
+    <a href="#" class="logo">CareConnect স্বাস্থ্য | তথ্য | সহায়ক | সেবা</a>
+    <div class="nav-links-a" id="navLinks">
+        <i class="fa fa-close" onclick="hideMenu()">X</i>
+        <ul>
+            <li><a href="#">বিশেষজ্ঞ ডাক্তার</a></li>
+            <li><a href="#">বিশেষজ্ঞ ডাক্তার</a></li>
+            <li><a href="#">নিকটস্থ হাসপাতাল</a></li>
+            <li><a href="#">সেবা সমূহ</a></li>
+            <li><a href="#">লগইন</a></li>
+           
+        </ul>
+    </div>
+    
+    <i class="fa fa-menu" onclick="showMenu()">
+        <div class="a"></div>
+        <div class="a"></div>
+        <div class="a"></div>
+    </i>
+</nav>
+
+</header>
+
+
+
+
+  
+  
   <!-- Hero -->
   <section class="hero">
     <div class="hero-inner">
       <div class="hero-card">
-        <h1><strong>বাংলা ভাষায়</strong> <br>সহজবোধ্য স্বাস্থ্যকথা<br/></h1>
+        <h1><strong>বাংলা ভাষায়</strong></h1>
+        <h1><strong> সহজবোধ্য স্বাস্থ্যকথা</strong></h1>
        <p>ডিজিটাল স্বাস্থ্যসেবা</p>
         
       </div>
@@ -40,19 +96,22 @@
   <!-- Category tabs -->
   <div class="tabs-wrap">
     <div class="tabs">
+      <div class="tab">মাতৃ স্বাস্থ্য</div>
+      <div class="tab">শিশু যত্ন</div>
+      <div class="tab">পরিবার পরিকল্পনা</div>
+      <div class="tab">কৈশোর স্বাস্থ্য</div>
       <div class="tab">মানসিক স্বাস্থ্য</div>
-      <div class="tab">শিশু স্বাস্থ্য</div>
-      <div class="tab">ডায়াবেটিস</div>
-      <div class="tab">ডারমাটোলজি</div>
+      <div class="tab">প্রবীণ স্বাস্থ্য</div>
+      <div class="tab">সাধারন স্বাস্থ্য</div>
+      <div class="tab">নারী স্বাস্থ্য</div>
       <div class="tab">খাদ্য ও পুষ্টি</div>
       <div class="tab">ফিটনেস</div>
-      <div class="tab">ওষুধ</div>
     </div>
   </div>
 
   <!-- স্বাস্থ্য কথা -->
   <section class="section">
-    <div class="section-head" style="border-bottom: 1.5px solid #d9b9ea;">
+    <div class="section-head" style="border-bottom: 1.5px solid #e5d9ec;">
       <h2 class="section-title">স্বাস্থ্য কথা</h2>
       <a class="more" href="#">সমস্ত বিষয় পড়ুন</a>
     </div>
@@ -62,8 +121,9 @@
         <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=400&auto=format&fit=crop" alt="person"/>
         <div class="meta">
           <small>পরামর্শ • জনস্বাস্থ্য</small>
-          <h3>স্ট্রেস কমাতে দৈনন্দিন ৫টি টিপস</h3>
-          <p>ঘুম, ব্যায়াম, নিঃশ্বাসের অনুশীলন ও সময় ব্যবস্থাপনা নিয়ে সংক্ষিপ্ত গাইড।</p>
+          <h3>স্ট্রেস কমাতে দৈনন্দিন ৫টি টিপস লো-জিআই খাবার, ফাইবার এবং প্রোটিনের সঠিক সমন্বয়।</h3>
+          <p>ঘুম, ব্যায়াম, নিঃশ্বাসের অনুশীলন ও সময় ব্যবস্থাপনা নিয়ে সংক্ষিপ্ত গাইড। ঘুম, ব্যায়াম, নিঃশ্বাসের অনুশীলন ও সময় ব্যবস্থাপনা নিয়ে সংক্ষিপ্ত গাইড।</p>
+          <p style="margin-top: 10px;">বিস্তারিত পড়ুন</p>
         </div>
       </article>
       <article class="person">
@@ -72,6 +132,7 @@
           <small>খাদ্য ও পুষ্টি</small>
           <h3>ডায়াবেটিসে ব্রেকফাস্ট কেমন হবে?</h3>
           <p>লো-জিআই খাবার, ফাইবার এবং প্রোটিনের সঠিক সমন্বয়।</p>
+          <p style="margin-top: 10px;">বিস্তারিত পড়ুন</p>
         </div>
       </article>
    
@@ -81,6 +142,7 @@
           <small>ফিটনেস</small>
           <h3>শুরুতেই ২০-মিনিট ফুল-বডি রুটিন</h3>
           <p>কোনো সরঞ্জাম ছাড়াই বাড়িতে করা যায় এমন ব্যায়াম।</p>
+          <p style="margin-top: 10px;">বিস্তারিত পড়ুন</p>
         </div>
       </article>
       <article class="person">
@@ -89,19 +151,74 @@
           <small>মানসিক স্বাস্থ্য</small>
           <h3>মাইন্ডফুলনেসে শুরু: ৫ মিনিট অনুশীলন</h3>
           <p>নবীনদের জন্য শ্বাস-প্রশ্বাস ও মনোযোগের কৌশল।</p>
+          <p style="margin-top: 10px;">বিস্তারিত পড়ুন</p>
         </div>
       </article>
     </div>
   </section>
 
-  <!-- স্বাস্থ্য ব্লগসমূহ -->
+  <!-- স্বাস্থ্য সুরক্ষা -->
   <section class="section">
-    <div class="section-head" style="border-bottom: 1.5px solid #d9b9ea;">
-      <h2 class="section-title">স্বাস্থ্য ব্লগসমূহ</h2>
+    <div class="section-head" style="border-bottom: 1.5px solid #e5d9ec;">
+      <h2 class="section-title">স্বাস্থ্য সুরক্ষা</h2>
       <a class="more" href="#">সমস্ত বিষয় পড়ুন</a>
     </div>
     <div class="card-grid">
       <!-- 8 cards -->
+
+
+
+
+
+      
+      <article class="card">
+        <img class="thumb" src="https://images.unsplash.com/photo-1514996937319-344454492b37?q=80&w=800&auto=format&fit=crop" alt=""/>
+        <span class="chip">পুষ্টি</span>
+        <h4>ক্যালসিয়াম ও ভিটামিন ডি কেন জরুরি</h4>
+        <p class="by">লেখক: ডা. রুবাইয়া</p>
+      </article>
+      <article class="card">
+        <img class="thumb" src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=800&auto=format&fit=crop" alt=""/>
+        <span class="chip">ডায়াবেটিস</span>
+        <h4>চিনি নয়, কার্ব নিয়ন্ত্রণে নজর দিন</h4>
+        <p class="by">লেখক: ডা. সায়েম</p>
+      </article>
+      <article class="card">
+        <img class="thumb" src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop" alt=""/>
+        <span class="chip">স্কিন</span>
+        <h4>শীতে ত্বকের যত্ন: ময়েশ্চারাইজার গাইড</h4>
+        <p class="by">লেখক: ডা. তামান্না</p>
+      </article>
+      <article class="card">
+        <img class="thumb" src="https://images.unsplash.com/photo-1516822003754-cca485356ecb?q=80&w=800&auto=format&fit=crop" alt=""/>
+        <span class="chip">ফিটনেস</span>
+        <h4>HIIT বনাম কার্ডিও—কোনটি আপনার জন্য?</h4>
+        <p class="by">লেখক: কোচ ইমরান</p>
+      </article>
+      <article class="card">
+        <img class="thumb" src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=800&auto=format&fit=crop" alt=""/>
+        <span class="chip">সাধারণ রোগ</span>
+        <h4>ফ্লু হলে প্রথম ২৪ ঘণ্টায় করণীয়</h4>
+        <p class="by">লেখক: ডা. কায়সার</p>
+      </article>
+      <article class="card">
+        <img class="thumb" src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?q=80&w=800&auto=format&fit=crop" alt=""/>
+        <span class="chip">পুষ্টি</span>
+        <h4>প্রোটিনের সাশ্রয়ী উৎস—দেশি বিকল্প</h4>
+        <p class="by">লেখক: পুষ্টিবিদ শিলা</p>
+      </article>
+      <article class="card">
+        <img class="thumb" src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?q=80&w=800&auto=format&fit=crop" alt=""/>
+        <span class="chip">মানসিক স্বাস্থ্য</span>
+        <h4>স্ক্রিন-টাইম কমানো যায় যেভাবে</h4>
+        <p class="by">লেখক: কাউন্সেলর রুবেল</p>
+      </article>
+      <article class="card">
+        <img class="thumb" src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?q=80&w=800&auto=format&fit=crop" alt=""/>
+        <span class="chip">শিশু</span>
+        <h4>টিকাদান সূচি—অভিভাবকের গাইড</h4>
+        <p class="by">লেখক: ডা. রিজভী</p>
+      </article>
       <article class="card">
         <img class="thumb" src="https://images.unsplash.com/photo-1514996937319-344454492b37?q=80&w=800&auto=format&fit=crop" alt=""/>
         <span class="chip">পুষ্টি</span>
@@ -153,18 +270,23 @@
     </div>
   </section>
 
+<!--     
+  <section class="section">
+    <div class="ad">ADVERTISEMENT</div>
+  </section> -->
   <!-- Tag cloud -->
   <section class="section">
-    <div class="section-head">
+    <div class="section-head" style="border-bottom: 1.5px solid #e5d9ec;">
       <h2 class="section-title">রোগের ধরনসমূহ</h2>
-      <a class="more" href="#">সব দেখুন</a>
+      <a class="more" href="#">সমস্ত বিষয় পড়ুন</a>
     </div>
-    <div class="tags">
+    <div class="tags" style="margin-top:30px;">
       <span class="tag">অ্যালার্জি</span>
       <span class="tag">গ্যাস্ট্রিক</span>
       <span class="tag">অ্যাজমা</span>
       <span class="tag">মাইগ্রেন</span>
       <span class="tag">হাইপারটেনশন</span>
+     
       <span class="tag">ডিপ্রেশন</span>
       <span class="tag">ত্বকের ফাঙ্গাস</span>
       <span class="tag">ডায়াবেটিস</span>
@@ -175,7 +297,7 @@
 
   <!-- Recent health (list) -->
   <section class="section">
-    <div class="section-head">
+    <div class="section-head" style="border-bottom: 1.5px solid #e5d9ec;">
       <h2 class="section-title">সাম্প্রতিক স্বাস্থ্য</h2>
       <a class="more" href="#">সব দেখুন</a>
     </div>
@@ -207,10 +329,7 @@
     </div>
   </section>
 
-  <!-- Ad
-  <section class="section">
-    <div class="ad">ADVERTISEMENT</div>
-  </section> -->
+
 
   <!-- Experts -->
   <section class="section">
@@ -364,4 +483,18 @@
     </div>
   </footer>
 </body>
+
+<<script>
+  let navLinks = document.getElementById("navLinks");
+  function showMenu() {
+      navLinks.style.right = "0";
+  }
+  function hideMenu() {
+      navLinks.style.right = "-200px";
+  }
+</script>
+
+
+
+
 </html>
