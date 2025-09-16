@@ -288,6 +288,7 @@ img {
   gap: 30px;
   background: #fff;
   border-radius: var(--radius);
+  cursor: pointer;
   
   box-shadow: var(--shadow)
 }
@@ -344,7 +345,8 @@ img {
   box-shadow: var(--shadow);
   overflow: hidden;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
+  cursor: pointer;
 }
 .card:hover {
   transform: translateY(-5px);
@@ -359,21 +361,21 @@ img {
 .chip {
   margin-top: 30px;
   color: var(--brand);
-  padding-left:10px;
+ 
   
   border-radius: 999px;
-  display: inline-block;
+  background: var(--chip);
   font-size: 14px;
   font-weight: 400
 }
 
 .card h4 {
-  margin: 15px 12px 4px;
+  margin: 15px 0px 4px;
   font-size: 16px
 }
 
 .card .by {
-  margin: 15px 12px 12px;
+  margin: 15px 0px 12px;
   color: #667085;
   font-size: 12px
   
@@ -395,6 +397,7 @@ img {
   border-radius: 6px;
   font-size: 16px;
   font-weight: 500;
+  cursor: pointer;
   white-space: nowrap;  /* prevent breaking text */
 }
 
@@ -425,8 +428,8 @@ img {
   margin-right: 20%;
  
   display: flex;
-  gap: 10px;
-  align-items: center;
+  gap: 30px;
+  
   background: #fff;
   border-radius: 12px;
   box-shadow: var(--shadow);
@@ -508,7 +511,7 @@ img {
   width: 100%;        
   max-height: 350px;    
   object-fit: cover;     
- 
+  cursor: pointer;
   display: block;
 }
 
@@ -523,7 +526,7 @@ img {
   display: flex;
   gap: 10px;
   justify-content: space-between;
- 
+ cursor: pointer;
 }
 
 .video-mini img {
