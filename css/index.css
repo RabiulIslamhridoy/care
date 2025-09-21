@@ -592,17 +592,21 @@ footer {
 }
 
 .foot-top {
-  display: grid;
+  display: flex;
   gap: 22px
 }
 
 .foot-cols {
   display: grid;
-  grid-template-columns: 1fr;
+  
+  
+  grid-template-columns: 2fr 0.7fr;
   gap: 18px
 }
 
 .foot h4 {
+  
+  text-align: center;
   margin: 0 0 10px;
   font-size: 16px
 }
@@ -613,10 +617,13 @@ footer {
 }
 
 .copyright {
-  border-top: 1px solid rgba(255, 255, 255, .12);
+  height: 80px;
+ background: #2c2c2c;
   padding-top: 12px;
-  font-size: 13px;
-  color: #c0d5d0
+ 
+  color: #f9f9f9;
+  text-align: center;
+  
 }
 
 /* Breakpoints */
@@ -659,6 +666,7 @@ footer {
   }
 
   .foot-cols {
-    grid-template-columns: 2fr 1fr 1fr 1fr
+    
+    grid-template-columns: 1fr 0.7fr
   }
 }
